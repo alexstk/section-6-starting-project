@@ -11,7 +11,8 @@ jobs:
     environment: testing
     runs-on: ubuntu-latest
     env:
-      MONGODB_CLUSTER_ADDRESS: gitub-actions-cluster0
+      MONGODB_CLUSTER_ADDRESS: gitub-actions-cluster0.qynbjym.mongodb.net
+      MONGODB_APP_NAME: gitub-actions-cluster0
       MONGODB_USERNAME: alexanderossaurrego_db_user
       MONGODB_PASSWORD: MzgGFO1jO9QBMeD7
       PORT: 8080
