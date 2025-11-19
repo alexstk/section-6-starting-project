@@ -34,7 +34,6 @@ jobs:
         run: |
           echo "MONGODB_USERNAME Variable Interpolation: $MONGODB_USERNAME"
           echo "MONGODB_USERNAME Expression with env context object: ${{ env.MONGODB_USERNAME }}"
-
   deploy:
     needs: test
     runs-on: ubuntu-latest
